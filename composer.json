@@ -3,7 +3,7 @@
     "description": "A laravel wrapper to use instagram API and to cache posts",
     "keywords": [
         "retinens",
-        "t-poeschl"
+        "t-poeschl",
         "laravel-instagram",
         "instagram",
         "laravel"

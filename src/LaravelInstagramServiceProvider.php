@@ -1,6 +1,6 @@
 <?php
 
-namespace Retinens\LaravelInstagram;
+namespace TPoeschl\LaravelInstagram;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\ServiceProvider;

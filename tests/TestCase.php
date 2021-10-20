@@ -1,11 +1,11 @@
 <?php
 
-namespace Retinens\LaravelInstagram\Tests;
+namespace TPoeschl\LaravelInstagram\Tests;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Schema;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Retinens\LaravelInstagram\LaravelInstagramServiceProvider;
+use TPoeschl\LaravelInstagram\LaravelInstagramServiceProvider;
 
 class TestCase extends Orchestra
 {

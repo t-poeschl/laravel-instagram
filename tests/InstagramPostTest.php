@@ -1,9 +1,9 @@
 <?php
 
-namespace Retinens\LaravelInstagram\Tests;
+namespace TPoeschl\LaravelInstagram\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Retinens\LaravelInstagram\InstagramPost;
+use TPoeschl\LaravelInstagram\InstagramPost;
 
 class InstagramPostTest extends TestCase
 {

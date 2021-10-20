@@ -1,13 +1,13 @@
 <?php
 
-namespace Retinens\LaravelInstagram\Tests;
+namespace TPoeschl\LaravelInstagram\Tests;
 
 use GuzzleHttp\Psr7\Response;
 use Http\Mock\Client;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Retinens\LaravelInstagram\InstagramPost;
-use Retinens\LaravelInstagram\LaravelInstagram;
-use Retinens\LaravelInstagram\LaravelInstagramException;
+use TPoeschl\LaravelInstagram\InstagramPost;
+use TPoeschl\LaravelInstagram\LaravelInstagram;
+use TPoeschl\LaravelInstagram\LaravelInstagramException;
 use Vinkla\Instagram\Instagram;
 
 class LaravelInstagramGetPostsTest extends TestCase

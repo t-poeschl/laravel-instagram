@@ -1,12 +1,12 @@
 <?php
 
-namespace Retinens\LaravelInstagram\Tests;
+namespace TPoeschl\LaravelInstagram\Tests;
 
 use GuzzleHttp\Psr7\Response;
 use Http\Mock\Client;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Retinens\LaravelInstagram\InstagramPost;
-use Retinens\LaravelInstagram\LaravelInstagram;
+use TPoeschl\LaravelInstagram\InstagramPost;
+use TPoeschl\LaravelInstagram\LaravelInstagram;
 use Vinkla\Instagram\Instagram;
 
 class LaravelInstagramUpdateCacheTest extends TestCase

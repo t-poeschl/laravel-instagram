@@ -1,19 +1,25 @@
 {
-    "name": "retinens/laravel-instagram",
+    "name": "TPoeschl/laravel-instagram",
     "description": "A laravel wrapper to use instagram API and to cache posts",
     "keywords": [
         "retinens",
+        "t-poeschl"
         "laravel-instagram",
         "instagram",
         "laravel"
     ],
-    "homepage": "https://github.com/retinens/laravel-instagram",
+    "homepage": "https://github.com/t-poeschl/laravel-instagram",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
             "name": "Lucas Houssa",
             "email": "lucas@retinens.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Tobias Poeschl",
+            "email": "t.poeschl@poeschl-ldk.de",
             "role": "Developer"
         }
     ],
@@ -23,22 +29,22 @@
         "illuminate/config": "5.8.*|^6.0|^7.0|8.0",
         "illuminate/support": "5.8.*|^6.0|^7.0|8.0",
         "vinkla/instagram": "^9.3",
-        "php-http/guzzle6-adapter": "^2.0",
-        "php-http/message": "^1.8"
+        "php-http/guzzle6-adapter": "*",
+        "php-http/message": "*"
     },
     "require-dev": {
-        "orchestra/testbench": "3.8.*",
-        "phpunit/phpunit": "^7.0 || ^8.0",
-        "php-http/mock-client": "^1.3"
+        "orchestra/testbench": "*",
+        "phpunit/phpunit": "*",
+        "php-http/mock-client": "*"
     },
     "autoload": {
         "psr-4": {
-            "Retinens\\LaravelInstagram\\": "src"
+            "TPoeschl\\LaravelInstagram\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Retinens\\LaravelInstagram\\Tests\\": "tests"
+            "TPoeschl\\LaravelInstagram\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -51,10 +57,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Retinens\\LaravelInstagram\\LaravelInstagramServiceProvider"
+                "TPoeschl\\LaravelInstagram\\LaravelInstagramServiceProvider"
             ],
             "aliases": {
-                "LaravelInstagram": "Retinens\\LaravelInstagram\\LaravelInstagramFacade"
+                "LaravelInstagram": "TPoeschl\\LaravelInstagram\\LaravelInstagramFacade"
             }
         }
     }
